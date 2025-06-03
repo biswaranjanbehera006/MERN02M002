@@ -1,0 +1,36 @@
+nav{
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 10px pink ;
+}
+.nav-logo{
+    width: 40%;
+    cursor: pointer;
+}
+ .nav-logo p{
+    color: blue;
+ }
+  span{
+    color: orangered;
+ }
+.nav-list{
+    width: 40%;
+    /* background-color: aqua; */
+}
+.nav-list ul{
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     font-size: 1.2rem;
+    cursor: pointer;
+ }
+ .nav-list ul li:hover{
+    transition: all 2s ease;
+    color: blue;
+    text-decoration: underline;
+ }

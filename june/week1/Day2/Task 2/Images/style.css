@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: Arial,sans-serif;
+    height: 100vh;
+    background-image: url('Background\ IMG.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+.login-continer
+{
+    padding: 30px 25px;
+    backdrop-filter: blur(10px);
+    width: 360px;
+    color: white;
+    border-radius: 10px;
+    border: 0.2px solid #cccccccf;
+    height: auto;
+}
+.login-form h2 
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  color: white;
+  margin-bottom: 15px;
+}
+.login-form input::placeholder {
+  color: #ccc;
+}
+.login-form input[type="checkbox"] {
+  margin-right: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.login-form label {
+  color: #ccc;
+  font-size: 13px;
+  display: block;
+   margin-bottom: 5px; 
+ 
+}
+.check-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+.check-box a
+{
+text-decoration: none;
+color: #ccc;
+}
+.check-box a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    transition-duration: 2s;
+}
+.login-form button
+{
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.register-link
+{
+    text-align: center;
+    margin-top: 34px;
+    font-size: 13px;
+    color: #ccc;
+   
+
+}
+.register-link a {
+  color: #ccc;
+  text-decoration: none;
+   margin-left: 10px;
+}
+.register-link a:hover {
+  text-decoration: underline;
+  color: blue;
+  transition-duration: 2s;
+
+}
