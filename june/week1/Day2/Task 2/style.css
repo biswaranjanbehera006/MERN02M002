@@ -9,7 +9,7 @@ body
 {
     font-family: Arial,sans-serif;
     height: 100vh;
-    background-image: url('Background\ IMG.jpg');
+    background-image: url('Images/Background\ IMG.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
