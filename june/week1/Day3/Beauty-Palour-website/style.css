@@ -485,3 +485,175 @@ button:hover {
   background: #a2121e;
 }
 
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+  background: #fff;
+}
+
+.side-img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: #111;
+}
+
+.instagram-call {
+  text-align: center;
+  padding: 30px 20px;
+  background: #fff;
+}
+
+.instagram-call h2 {
+  font-size: 1.8rem;
+  color: #a00000;
+}
+
+.instagram-call p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.full-gallery-footer {
+  margin-top: 30px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* Footer Section */
+
+.footer {
+  background-color: #0d0d0d;
+  color: #fff;
+  padding: 40px 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-col h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.footer-col p,
+.footer-col li {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.brand .logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.brand h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.book-btn {
+  margin: 112px -19px;
+  padding: 12px 30px;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  width: 170px;
+}
+
+.social-icons {
+  margin-top: -76px;
+}
+
+.social-icons img {
+  width: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  color: #111;
+  padding: 10px 16px;
+  border-radius: 16px;
+  margin-top: 164px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.whatsapp-btn img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2b2b2b;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.footer-bottom .links a {
+  margin-right: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom .links a:hover {
+  text-decoration: underline;
+}
