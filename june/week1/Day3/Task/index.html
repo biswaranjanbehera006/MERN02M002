@@ -134,8 +134,7 @@
   </section>
 
 <!-- appointment section -->
-
-  <section class="appointment-section">
+<section class="appointment-section">
   <div class="appointment-container">
     <div class="appointment-image">
       <img src="Images/appoinment.png" alt="Beauty Face">
@@ -146,32 +145,45 @@
       <p>Mi senectus ac ullamcorper sollicitudin volutpat sit a velit. Purus scelerisque</p>
       <form>
         <div class="input-row">
-          <input type="text" placeholder="First name">
-          <input type="text" placeholder="Last name">
-        </div>
-        <div class="input-row">
-          <input type="email" placeholder="Email">
-          <input type="tel" placeholder="Phone">
-        </div>
-        <div class="input-row">
           <div class="input-icon">
-            <input type="date" placeholder="Date">
-            <i class="fas fa-calendar-alt"></i>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="First name">
           </div>
           <div class="input-icon">
-            <input type="time" placeholder="Time">
-            <i class="fas fa-clock"></i>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Last name">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-icon">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email">
+          </div>
+          <div class="input-icon">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Phone">
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-icon">
+            <label for="date">Date</label>
+            <input type="date" id="date">
+          </div>
+          <div class="input-icon">
+            <label for="time">Time</label>
+            <input type="time" id="time">
           </div>
         </div>
         <div class="input-full">
           <div class="input-icon">
-            <select>
+            <label for="service">Service</label>
+            <select id="service">
               <option>Service</option>
               <option>Facial</option>
               <option>Makeup</option>
               <option>Hair Styling</option>
             </select>
-            <i class="fas fa-chevron-down"></i>
+           
           </div>
         </div>
         <button type="submit">Send message</button>
@@ -179,6 +191,7 @@
     </div>
   </div>
 </section>
+
 
 
   </main>
