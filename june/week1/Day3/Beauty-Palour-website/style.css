@@ -497,7 +497,7 @@ button:hover {
 
 .side-img {
   width: 200px;
-  height: auto;
+  height: 210px;
   object-fit: cover;
 }
 
