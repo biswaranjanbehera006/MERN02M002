@@ -123,7 +123,7 @@ console.log("Hey This is Function Tutorial");
 
 
 // this is map function
-let numArray=[1,2,3,4,5]
+// let numArray=[1,2,3,4,5]
 // let modifiedArray=numArray.map((v)=>
 // {
 //     return v*2;
@@ -141,12 +141,45 @@ let numArray=[1,2,3,4,5]
 
 
 //Hey This Reduce Methord
-let sumofNum=numArray.reduce((accum,curr)=>
-{
-   return accum+curr;
-},0)
+// let sumofNum=numArray.reduce((accum,curr)=>
+// {
+//    return accum+curr;
+// },0)
 
-console.log("Sum is :",sumofNum);
+// console.log("Sum is :",sumofNum);
+
+
+// by using fillter methord to find the student mark greater than eqalus to 50
+// let stmark=[40,35,67,89,90]
+// let filterout=stmark.filter((v)=>
+// {
+//    return v>=50;
+// })
+// console.log(filterout);
+
+
+
+//Question 2
+let n=prompt("Enter a number")
+let  from1toN=[]
+for(let i=1;i<n;i++)
+{
+    from1toN.push(i)
+}
+console.log(from1toN);
+
+let sumFrom1ToN=from1toN.reduce((accu,curr)=>
+{
+    return accu+curr;
+})
+
+let MulFrom1ToN=from1toN.reduce((accu,curr)=>
+{
+    return accu*curr;
+})
+console.log("Sumation is : ",sumFrom1ToN);
+console.log("Multipliaction is : ",MulFrom1ToN);
+
 
 
 
