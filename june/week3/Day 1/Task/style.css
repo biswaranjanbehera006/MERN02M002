@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+
+   background-image: url('Background_image.jpg');
+  background-size: cover;      /* Makes image cover the whole area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;/* Prevent repeating */
+
+}
+
+.form-section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 300px;
+
+
+   background: rgba(255, 255, 255, 0.1); /* transparent white */
+  backdrop-filter: blur(10px);         /* blur effect */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgba(15, 0, 0, 0.5); /* visible light border */
+  border-radius: 5px;
+
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  color: black; /* input text color */
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Make placeholder text visible */
+form input::placeholder {
+  color: rgb(3, 34, 105); /* visible white-ish placeholder */
+  font-weight: 400;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #008cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0073cc;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  color: #d00000;
+}
+
+a {
+  color: #010a11;
+  text-decoration: none;
+}
